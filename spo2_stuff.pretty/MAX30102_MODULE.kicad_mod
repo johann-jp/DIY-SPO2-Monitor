@@ -1,0 +1,215 @@
+(footprint "MAX30102_MODULE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5ac734a7-2299-47cd-8041-e11e09c6823c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MAX30102_MODULE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8f271b2-0760-4be0-8e35-2e24a7dcc7e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cb82f14-b6cd-4ced-b96b-6b272e541775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a6dc6b-cd44-4e98-837f-1b2f6a404738")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "INT"
+		(at -4.572 -2.54 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3cb5d4f-d3d5-4baf-9cef-f495a647094a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at -2.032 -2.032 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "67140d5d-8672-4e39-913d-6cffeff82f80")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 0.508 -2.032 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9bae563b-6a47-48e8-a048-67731dee0eb5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.048 -2.032 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60e36910-94dc-445f-bb51-a9b70335b20f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at 5.588 -2.032 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a7653349-a53f-4dfd-900d-ed3d6ba6754f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae8dc6b1-7bf1-4170-b6e5-fd33210a28fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 -5.08)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26ea5fef-4a67-473b-858a-f43c819c7776")
+	)
+	(pad "2" thru_hole roundrect
+		(at -2.54 -5.08)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8ffdd4c2-d1d0-4d26-a48c-f8c9542f1faa")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 -5.08)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "2ca8d47a-f08e-44b5-ba27-cc0302b2f793")
+	)
+	(pad "4" thru_hole roundrect
+		(at 2.54 -5.08)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "b98456d7-c2c8-4fb7-8a67-17030796ea84")
+	)
+	(pad "5" thru_hole roundrect
+		(at 5.08 -5.08)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "50399638-e5c0-4985-8b87-8328057ac4a0")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "8645051b-ca09-4d24-8698-55810006cdbb")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -7 -7) (xy 7 -7) (xy 7 7) (xy -7 7)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
